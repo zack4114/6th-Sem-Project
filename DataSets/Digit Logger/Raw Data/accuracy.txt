@@ -1,0 +1,7 @@
+data 1 = 57.*
+data 2 = 60%
+
+readind 2 till 1051
+
+
+1507 3rd reading

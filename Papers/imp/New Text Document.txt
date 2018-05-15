@@ -1,0 +1,18 @@
+For our experiments, we developed an android application which records accelerometer and gyroscope sensor data. The application can run in background and can be used to log the data from both sensors into a csv file. Since, android does not impose any security restriction on these two sensors, no permission is asked for accessing these two sensors at the time of installation.
+ \\\\
+ Experiment 1 :\\\\
+ In Experiment 1, we have used Samsung Galaxy J2 2016 device to collect accelerometer data for detecting user motion activity : stationary or walking. The application logs the averaged value of the acceleration force applied on all three physical axes in m/s2 over time interval of 1 second. We collected data from 10 different users in hand held scenario for both stationary and walking.\\\\
+ Experiment 2 :\\\\
+ In Experiment 2, we have used One Plus 5 device to collect both accelerometer and gyroscope data for inferring user PIN input and to recognize each and individual key-press. The accelerometer gives the motion data along the three axis x, y and z. The gyroscope gives the orientation data for the three axis : pitch(x axis), roll(y axis) and azimuth(z axis). We collected this data from 10 different users where each user entered 50 random pins of four digit each and we allowed users to choose these pins at random of their choice.
+
+
+
+
+
+
+
+
+
+Internet of things (IoT), which adds sensors and internet capability to everyday physical objects has transformed the lives of individuals dramatically. The real-time insights and analysis of IoT devices delivers e?cient and smart decisions faster. Nowadays, users rely on these devices to carry their personal data and day-to-day activity information. Now, this data can be sensitive if it contains credentials for an email account, bank details, medical information to name a few. To capture this information, IoT devices utilize various sensors (Analog and Digital). An attacker can exploit this sensor data to extract the private details of the user as it has been seen in the past that security restrictions on sensors are negligible. Therefore, the sensor data can be exploited to threaten user’s privacy.\\\\
+    Today’s smart devices are packed with nearly 14 different type of sensors that produce raw data on motion, location and the environment around us. An attacker can use sensors like Accelerometer and gyroscope to infer user's input keystroke, Ambient light sensor to infer user’s pin input. Currently, Android sensor manager asks for permission to access few sensors only such as Camera, GPS and Microphone but it does not impose permission on sensors like Accelerometer, Gyroscope, Magnetometer and Proximity Sensor. Android allows third-party applications to read and access sensor data without any limitations.\\\\
+    In our project we have performed two experiments to exploit the privacy of user using sensors in smart devices. The main observation that we have made during our work is that touch input actions at different position will bring different level of motion and posture change in smart-phones. In first experiment, we have used accelerometer sensor data to detect the motion activity of a user, if he is walking or stationary. In our second experiment we have demonstrated that accelerometer and gyroscope sensor data can be used to perform a side channel attack against secure input. We have used these two sensors to learn user PIN input and recognize each individual key-press with an accuracy of about 42\%.

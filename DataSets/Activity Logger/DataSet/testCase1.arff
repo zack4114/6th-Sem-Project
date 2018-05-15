@@ -1,0 +1,54 @@
+	@relation activity_recognition_labeled
+
+@attribute "UNIQUE_ID" numeric
+@attribute "user" {"33" , "17", "29", "13" , "20" , "27" , "6" , "15" , "32" , "36"} 
+@attribute "X0" numeric
+@attribute "X1" numeric
+@attribute "X2" numeric
+@attribute "X3" numeric
+@attribute "X4" numeric
+@attribute "X5" numeric
+@attribute "X6" numeric
+@attribute "X7" numeric
+@attribute "X8" numeric
+@attribute "X9" numeric
+@attribute "Y0" numeric
+@attribute "Y1" numeric
+@attribute "Y2" numeric
+@attribute "Y3" numeric
+@attribute "Y4" numeric
+@attribute "Y5" numeric
+@attribute "Y6" numeric
+@attribute "Y7" numeric
+@attribute "Y8" numeric
+@attribute "Y9" numeric
+@attribute "Z0" numeric
+@attribute "Z1" numeric
+@attribute "Z2" numeric
+@attribute "Z3" numeric
+@attribute "Z4" numeric
+@attribute "Z5" numeric
+@attribute "Z6" numeric
+@attribute "Z7" numeric
+@attribute "Z8" numeric
+@attribute "Z9" numeric
+@attribute "XAVG" numeric
+@attribute "YAVG" numeric
+@attribute "ZAVG" numeric
+@attribute "XPEAK" numeric
+@attribute "YPEAK" numeric
+@attribute "ZPEAK" numeric
+@attribute "XABSOLDEV" numeric
+@attribute "YABSOLDEV" numeric
+@attribute "ZABSOLDEV" numeric
+@attribute "XSTANDDEV" numeric
+@attribute "YSTANDDEV" numeric
+@attribute "ZSTANDDEV" numeric
+@attribute "RESULTANT" numeric
+@attribute class{ "Walking" , "Jogging" , "Upstairs" , "Downstairs" , "Sitting" , "Standing" }
+
+@data
+349,33,0.25,0.12,0.32,0.19,0.06,0.05,0.01,0.01,0,0.01,0.21,0.15,0.37,0.16,0.06,0.03,0.01,0,0.01,0.01,0.16,0.18,0.15,0.05,0.04,0.01,0.02,0.02,0.12,0.25,0,6.54,0.83,?,2116.67,3175,7.28,0.39,0.99,7.31,0.63,7.31,9.93,Standing
+21,33,0.1,0.1,0.1,0.13,0.1,0.1,0.08,0.1,0.1,0.12,0.11,0.11,0.11,0.08,0.09,0.1,0.1,0.13,0.09,0.08,0.12,0.09,0.11,0.08,0.09,0.07,0.16,0.1,0.1,0.11,0,9.99,-0.65,1650,565.63,1890,4.88,4.55,3.26,6.05,5.61,6.05,12.55,Walking
+176,33,0.08,0.12,0.09,0.13,0.12,0.08,0.1,0.1,0.12,0.09,0.07,0.15,0.1,0.09,0.12,0.09,0.1,0.1,0.14,0.07,0.11,0.12,0.08,0.11,0.08,0.08,0.1,0.17,0.1,0.08,0,9.64,-1.7,2050,1300,1416.67,3.6,3.77,2.44,4.4,4.62,4.4,11.17,Upstairs
+263,33,0.05,0.04,0.1,0.11,0.06,0.1,0.03,0.02,0.06,0,0.04,0.07,0.11,0.07,0.1,0.09,0.04,0.04,0.03,0,0.05,0.02,0.09,0.09,0.06,0.05,0.07,0.04,0.11,0,0,-2.84,-0.62,762.5,983.33,2150,5.37,3.29,2.92,10.82,6.91,10.82,7.78,Jogging

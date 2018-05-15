@@ -1,0 +1,143 @@
+1) Beware, Your Hands Reveal Your Secrets!
+
+Authors : Diksha Shukla, Rajesh Kumar, Abdul Serwadda, Vir V. Phoha
+
+Published In : CCS '14 Proceedings of the 2014 ACM SIGSAC Conference on Computer and Communications Security, 2014
+
+Objective : Research on attacks which exploits video-based side-channels to decode text typed on a smartphone.
+
+Methodology :  Used HTC One phone as victim's device. Used Google Nexus 5 camera to record PIN entry process. 
+
+Achievement : 50% of the PIN's on first attempt and on average of over 85% of PINs in ten attempts.
+
+Research gap : Work can be extended to detect android pattern based locks.
+
+-----------------------------------------------------------------
+2) Input extraction via motion-sensor behavior analysis on smartphones
+
+Authors : ChaoShen, Shichao Pei, Zhenyu Yanga, Xiaohong Guan
+
+2015
+
+Objective : To infer user input using accelerometer and magnetometer sensors.
+
+Methodology :   three different types of smartphones, each operating on Android 4.1.x. The smartphones are Samsung Galaxy, Huawei Ascend P6, ZTE V800.
+		Thus we used the accelerometer data in all three axes and the orientation data in two axes as a source to 
+		represent the posture change of a smartphone.
+
+Achievement : The results indicated that users’ inputs can be accurately inferred from the sensor data, with the accuracies of 100% for input-action detection and 80% 			for input inference in some cases.
+
+Research gap : This work could be extended to infer other kind of text example email, chatting messages.
+
+-----------------------------------------------------------------------------------------------------------
+3) Keyboard Acoustic Emanations Revisited
+
+Authors: LI ZHUANG, FENG ZHOU, and J. D. TYGAR University of California, Berkeley
+ 
+Published In:
+Journal
+ACM Transactions on Information and System Security (TISSEC) TISSEC Homepage archive
+Volume 13 Issue 1, October 2009 
+ACM New York, NY, USA 
+
+ Objective : To examine the problem of keyboard acoustic emanations.
+
+Methodology :  
+
+Achievement :
+
+Research gap :
+
+---------------------------------------------------------------------
+4) When Good Becomes Evil: Keystroke Inference with Smartwatch 
+
+Authors: Xiangyu Liu, Zhe Zhou, Wenrui Diao, Zhou Li, Kehuan Zhang
+
+Published In :
+ACM Conference on Computer and Communications Security
+
+2015
+
+Objective : To investigate security issues that can be generated from smart watch sensors especially using accelerometer and microphone.
+
+Methodology :  LG G WATCH was used as a smart watch. Used microphone to identify the window of individual keystrokes.
+
+Achievement : For numeric keyboard, the probability of ?nding banking PINs in the top 3 candidates can reach 65%.
+
+Research gap :	 Data from the sensors in touch-screen devices and smart watches can be combined together and produce more entropy,such that thea ccuracy can be further improved.
+-----------------------------------------------------------------------
+5) MoLe: Motion Leaks through Smartwatch Sensors
+
+Authors : He Wang, Ted Tsung-Te Lai, Romit Roy Choudhury
+
+Published In :
+MobiCom '15 Proceedings of the 21st Annual International Conference on Mobile Computing and Networking
+
+2015
+
+Objective : To mine accelerometer and gyroscope data from smart watches to infer what user is typing. 
+
+Methodology :  MoLe has been implemented on the Galaxy Gear Live smart watch. The MoLe client on the watch continuously logs accelerometer and gyroscope readings at 200Hz, along with timestamps. 
+
+Achievement : 
+
+Research gap :  MoLe is not yet a real-world attack since it is not able to detect the space bar and separate out words from a sentence and can only detect dictionary 		words.
+
+------------------------------------------------------------------
+6) PIN Skimming: Exploiting the Ambient-Light Sensor in Mobile Devices
+
+Authors : Raphael Spreitzer, Graz University of Technology, Graz, Austria
+
+Published In : SPSM '14 Proceedings of the 4th ACM Workshop on Security and Privacy in Smartphones & Mobile Devices
+2014
+
+Objective :  infer a user’s PIN input based on a set of known PINs using Ambient-Light Sensor.
+
+Methodology :	Used Samsung Galaxy S4 to capture Lux Values Including RGBW Value of ambient light sensor.
+
+Achievement :	Able to determine the correct PIN—out of a set of 50 random PINs—within the ?rst ten guesses about 80% of the time. In contrast, the chance of ?nding 		the right PIN by randomly guessing ten PINs would be 20%. 
+
+Research gap :  It does not work in case the user operates the mobile device in a completely dark environment.
+----------------------------------------------------------------------
+7) SMASheD: Snif?ng and Manipulating Android Sensor Data for Offensive Purposes 
+
+Authors : Manar Mohamed, Babins Shrestha, and Nitesh Saxena
+
+Published In:  IEEE Transactions on Information Forensics and Security ( Volume: 12, Issue: 4, April 2017 )
+
+Objective : Build SMASheD,a legitimate framework that can be used to stealthily sniff as well as manipulate many of the Android’s restricted sensors (even touch input).
+
+Methodology :  
+
+Achievement :
+
+Research gap : 
+-----------------------------------------------------------------------
+8) The rise of keyloggers on smartphones: A survey and insight into motion-based tap inference attacks
+
+Authors : Muzammil Hussaina, AhmedAl-Haiqia, A.A.Zaidanab, B.B.Zaidana, M.L.Mat Kiaha, Nor Badrul Anuara, Mohamed Abdulnabia
+
+Published In : 
+
+Objective : To Review the new trend in exploiting motion sensors on Android smart phones as novel side channels to infer taps on the touch screen of a device.
+
+Methodology :  
+
+Achievement :
+
+Research gap :
+----------------------------------------------------------------------
+
+9) How Your Phone Camera Can Be Used to Stealthily Spy on You: Transplantation Attacks against Android Camera Service
+
+Authors : Zhongwen Zhang, Peng Liu, Ji Xiang, Jiwu Jing, Lingguang Lei 
+
+Published In : CODASPY '15 Proceedings of the 5th ACM Conference on Data and Application Security and Privacy, 2015
+
+Objective :  To stealthily spy on user using the transplantation attack.
+
+Methodology :  
+
+Achievement :
+
+Research gap :
